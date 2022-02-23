@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='./form.css'>
+    <title>Registration form</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div>
+                <h1>My bio</h1>
+            </div>
+            <div>
+                <label for="Name">Fullname</label><br>
+                    <input type="text" name="name id=Name" placeholder="name">
+
+            </div>
+            <div>
+            <label for="Email"> Email:</label><br>
+            <input type="text" name="Email" id="Email" placeholder="Email">
+            </div>
+             <div>
+            <label for="password"> password</label><br>
+            <input type="password" name="password" id="Password" placeholder="password">
+            </div>
+            <div>
+            <label for="Male"> Male</label>
+            <input type="radio" name="gender" id="male-female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male-female">
+        </div>
+        <div>
+            <label for="age">0-17</label>
+            <input type="radio" name="age" id="0-17">
+            <label for="age">18-60</label>
+            <input type="radio" name="age" id="18-60">
+        </div>
+        <div>
+            <h3>My Skills</h3>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">  
+            <label for="javascript">Javascript</label>  
+            <input type="checkbox" name="javascript" id="jvascript">
+          </div>
+          <div>
+              <label for="number">Number</label>
+              <input type="number" name="number" id="number">
+          </div>
+    <div>
+        <label for="about">About yourself</label><br>
+        <textarea name="about" id="about" placeholder="Tell me about yourself" rows="20" cols="40"> </textarea>
+    </div>
+    <div>
+        <botton type="button">Submit</botton>
+    </div>
+</form>
+</div>
+    
+</body>
+</html>

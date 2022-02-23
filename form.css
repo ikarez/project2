@@ -1,0 +1,32 @@
+body{
+    color: blue;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    font-family: 'Redressed', cursive;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    background-color: blueviolet;
+    width: 40%;
+}
+input{
+    margin-bottom: 10px;
+}
+
+.but{
+    width: 40;
+    display: flex;
+    justify-content: center;
+}
+
+
